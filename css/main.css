@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+/* header_part_start*/
+#header_part{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.logo_with_menu{
+    display: flex;
+}
+.logo{
+    padding-top: 7px;
+    width:210px ;
+}
+.menu{
+    width: 1040px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline;
+
+}
+.menu ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-family: "Gentium Book Plus", serif;
+    font-weight: 400;
+    padding-left: 45px;
+    line-height: 110px;
+
+}
+/* header_part_end*/
+
+/* header_secend_part_start*/
+#header_secend_part{
+    padding-top: 238px;
+    padding-bottom: 140px;
+    background:url(../images/restaurant.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_text_with_button{
+    padding-top: 129px;
+    padding-bottom: 142px;
+    text-align: center;
+}
+.header_text h1{
+    font-family: "Yeseva One", cursive;
+    font-size: 90px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 110px;
+    padding-bottom: 34px;
+}
+.header_logo{
+    text-align: center;
+    line-height: 70px;
+}
+.header_button {
+    display: flex;
+    margin: 0 auto;
+    width: 490px;
+    justify-content: space-between;
+    margin-top: 34px;
+  }
+  
+  .header_first_but a {
+    display: inline-block;
+    padding: 22px 50px;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #111818;
+  }
+  .header_second_but a {
+    display: inline-block;
+    padding: 22px 50px;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #eae5cd;
+  }
+/* header_secend_part_end*/
+/* Item part CSS start*/
+#item_part{
+    padding-top: 75px;
+    padding-bottom: 88px;
+    background: url(../images/item_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item_text{
+    width: 430px;
+    text-align: center;
+}
+.item_img{
+    width: 552px;
+}
+.item_txt_with_img{
+    padding-left: 110px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.item_text h3 {
+    color: #cc9900;
+    font-family: "Yeseva One", cursive;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 36px;
+    padding-top: 34px;
+  }
+  .item_text img {
+    padding-bottom: 36px;
+  }
+  .item_text p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #4c4c4c;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 50px;
+  }
+  /* Item part CSS End */
+
+  /* banner_part_start*/
+  #banner_part {
+  padding: 100px 0;
+  background: url(../images/card7.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner_item_warp {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+.banner_item {
+    padding-top: 84px;
+    padding-bottom: 78px;
+    width: 570px;
+    background: rgba(0, 0, 0, 0.67);
+    margin-right: 40px;
+  }
+  .banner_ite_text_with_img_warp {
+    padding: 80px 70px 76px 70px;
+  }
+  .banner_head_text {
+    text-align: center;
+  }
+  .banner_head_text h3 {
+    font-family: "Yeseva One", cursive;
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 16px;
+  }
+  .banner_head_text p {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    padding-top: 30px;
+    padding-bottom: 72px;
+  }  
+  .banner_img_wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .banner_img_wrap img {
+    width: 100%;
+  }
+   /* banner_part_end*/
+   #service_part{
+    padding: 100px 0;
+    background: url(../images/service.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .service_item_warp{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .service_rowond{
+    width: 430px;
+  }
+  .service_rowsec{
+    width: 430px;
+  }
+  .ser_head_text{
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .ser_head_text h3{
+    font-family: "Yeseva One", cursive;
+    font-size: 36px;
+    color: #cc9900;
+    padding-bottom: 16px;
+  }
+  .service_text_with_price{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c89f2d;
+    padding-bottom: 13px;
+  }
+  .ser_text h3{
+    font-family: "Yeseva One", cursive;
+    font-size: 21px;
+    color: #cc9900;
+    padding-bottom: 16px;
+  }
+  .ser_price h3{
+    font-family: "Yeseva One", cursive;
+    font-size: 21px;
+    color: #cc9900;
+    padding-bottom: 16px; 
+  }
+  .service_butt_text{
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+  .service_butt_text p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+  }
+  .service_row_werp-mmt{
+    margin-top: 72px;
+  }
+  /* project part css start*/
+  #project_part{
+    background: url(../images/card12.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  .project_item{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    width: 770px;
+    background: #000000e1;
+    margin: 0 auto;
+  }
+  .project_head_text{
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .project_head_text h3{
+    font-family: "Yeseva One", cursive;
+    font-style: 36px;
+    color: #fff;
+    padding-bottom: 22px;
+  }
+  .project_head_text p{
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    line-height: 45px;
+    color: #dde0df;
+    padding-bottom: 45px;
+  }
+  .project_head_text h4{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: #dde0df;
+  }
+   /* project part css end*/
+   /* contact part css sart*/
+   #contact_part{
+  
+    background: url(../images/card16.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+   }
+   .contact_img_with_from{
+    display: flex;
+   }
+.contact_with_img{
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+  height: 540px;
+}
+.contact_im{
+  width: 270px;
+  height: 540px;
+}
+.contact_img{
+  width: 270px;
+  height: 540px;
+  margin-right: 30px;
+}
+.contact_text_with_from{
+  width: 430px;
+  height: 508px;
+  margin-left: 100px;
+}
+.contact_head_text{
+  text-align: center;
+}
+.contact_head_text{
+  font-family: "Yeseva One", cursive;
+  color: #cc9900;
+  font-size: 36px;
+  padding-bottom: 14px;
+}
+.contact_head_text p{
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-top: 15px;
+}
+.sec_p{
+  padding-top: 20px !important;
+  padding-bottom: 30px !important;
+}
+.from_part{
+  margin-top: 0px;
+}
+.form_werp{
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+.name_with_date{
+  width: 200px;
+}
+.M_name{
+  margin-bottom: 29px;
+}
+.M_name h3{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c9a131;
+  padding-bottom: 7px;
+  text-align: left;
+}
+input[type="text"]:focus {
+  border: 1px solid #c89f2d;
+}
+.M_name input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #7c7c7c;
+  border: 1px solid #c8c6c6;
+  background: #f4f5f5;
+}
+.date h3{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c9a131;
+  padding-bottom: 7px;
+  text-align: left;
+}
+.date input[type="date"]{
+  width: 100%;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #7c7c7c;
+  border: 1px solid #c8c6c6;
+  background: #f4f5f5;
+}
+.name_with_party{
+  width: 230px;
+}
+.email h3{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c9a131;
+  padding-bottom: 7px;
+  text-align: left;
+}
+.email input[type="email"]{
+  width: 100%;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #7c7c7c;
+  border: 1px solid #c8c6c6;
+  background: #f4f5f5;
+}
+.email{
+  margin-bottom: 29px;
+}
+.party h3{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c9a131;
+  padding-bottom: 7px;
+  text-align: left;
+}
+.party select{
+  width: 100%;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #7c7c7c;
+  border: 1px solid #c8c6c6;
+  background: #f4f5f5;
+}
+.submit_but{
+  text-align: center;
+  padding-top: 20px;
+}
+.submit_but button[type="submit"]{
+  padding: 10px 60px;
+  background: #c9a131;
+  border: none;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.name_with_date .hover input:focus{
+  border: 1px solid #c89f2d;
+  outline: none;
+}
+.name_with_party .hover input:focus{
+  border: 1px solid #c89f2d;
+  outline: none;
+}
+.name_with_party .hover select:focus{
+  border: 1px solid #c89f2d;
+  outline: none;
+}
+/*footer part css start*/
+#footer_part{
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background: #191919;
+}
+.footer_werp{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 55px;
+  padding-right: 125px;
+}
+.footer_fast_part{
+  width: 345px;
+  text-align: center;
+}
+.footer_secound_part{
+  width: 198px;
+  text-align: center;
+}
+.footer_thard_part{
+  width: 205px;
+  text-align: center;
+}
+.footer_fast_part p,
+.footer_secound_part p,
+.footer_thard_part p{
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 22px;
+}
+.footer_fast_part h3,
+.footer_secound_part h3,
+.footer_thard_part h3{
+  font-family: "Yeseva One", cursive;
+  font-size: 21px;
+  padding-bottom: 20px;
+  color: #fefefe;
+}
+.footer_secound_text_img{
+  margin-top: 55px;
+}
+.footer_thard_text_img{
+  margin-top: 55px;
+}
+.ptt {
+  padding-top: 0px !important;
+}
+.footer_secound_part span{
+  font-weight: 700;
+}
+/*footer part css end*/
